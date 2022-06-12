@@ -14,7 +14,7 @@
 
   section {
     top: 0;
-    position:sticky;
+    /* position:sticky; */
     scroll-snap-align: start end;
     scroll-snap-stop: always;
     min-block-size: 100vh;
