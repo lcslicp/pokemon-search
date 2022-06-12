@@ -9,5 +9,20 @@
 @layer base {
   html {
     font-family: 'Space Grotesk', sans-serif;
+    scroll-snap-type: y mandatory;
+  }
+
+  section {
+    top: 0;
+    position:sticky;
+    scroll-snap-align: start end;
+    scroll-snap-stop: always;
+    min-block-size: 100vh;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    opacity: 0.7;
   }
 }

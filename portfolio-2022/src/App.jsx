@@ -4,17 +4,17 @@ import './index.css';
 import Intro from './components/intro';
 import SelectedWorks from './components/Selectedworks';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import BgAnimation from './components/BgAnimation';
+import Sidebar from './components/SideBar';
 
 function App() {
 
   return (
     <div>
+      <Sidebar />
       <Intro />
       <SelectedWorks />
       <Contact />
-      <Footer />
       <BgAnimation />
 
     </div>
