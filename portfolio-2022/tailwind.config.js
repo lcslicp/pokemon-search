@@ -4,7 +4,7 @@ module.exports = {
     './index.html', './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: { },
     colors: {
       transparent: 'transparent',
       'black': '#0f0f0f',

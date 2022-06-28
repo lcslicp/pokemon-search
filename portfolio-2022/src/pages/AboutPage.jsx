@@ -1,20 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 //components
-import Header from '../components/Header';
-import About from '../components/About';
-import Footer from '../components/Footer';
-
-const About = () => {
+import SidebarAbout from '../components/common/SidebarAbout';
+import About from '../components/common/About';
+import BgAnimation from '../components/feature/BgAnimation';
+import Contact from '../components/common/Contact';
+import Cursor from '../components/feature/Cursor';
+const AboutPage = () => {
   return (
     <div>
-        <Header />
-        <About />
-        <Contact />
-        <Footer />
-
+      <Cursor />
+      <SidebarAbout />
+      <About />
+      <BgAnimation />
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default AboutPage;
