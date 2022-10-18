@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+html {
+  color: white;
+  background-color: rgb(33, 33, 33);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100vh;
+}
+
+.sprite {
+  height: 10rem;
+  width: 10rem;
+}
+
+h1 {
+  color: rgb(239, 184, 0);
+}
+
+.label, .input {
+  margin-bottom: 1rem;
+}
+
+.input, .btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: rgb(239, 184, 0);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
